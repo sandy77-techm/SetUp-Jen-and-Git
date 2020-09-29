@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name=" CRMPRO Regression Suite">
+<listeners>
+<listener class-name = "com.qa.CRMPRO.Listeners.ExtentReportListener"></listener>
+</listeners>
+ <test name="Test Application Test">
+
+<classes>
+
+<class name="com.qa.CRMPRO.test.DealsPageTest"/>
+
+</classes>
+</test>
+</suite>
